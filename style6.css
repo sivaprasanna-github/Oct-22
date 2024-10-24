@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ div{
+     height: 100px;
+     width: 100px;
+     margin: 10px;
+     background-color: plum;
+ }
+ @media screen and (width >= 600px) {
+     div{
+         box-shadow: 2px 2px 8px;
+     }
+ }

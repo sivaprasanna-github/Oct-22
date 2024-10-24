@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+}
+@media screen and (orientation:landscape) {
+    div{
+        border-radius: 20px;
+    }
+}

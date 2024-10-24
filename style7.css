@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    margin: 10px;
+    background-color: teal;
+}
+@media screen and (orientation:portrait) {
+    .btn{
+        background-color: orange;
+    }
+}
